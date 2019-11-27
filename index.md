@@ -1,37 +1,8 @@
-## Welcome to GitHub Pages
+<canvas id="catw" width="500" height="500" style="position: fixed; bottom: 0;right:0;"></canvas>
 
-You can use the [editor on GitHub](https://github.com/dusha1023/sd/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dusha1023/sd/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<script src="https://github.com/dusha1023/sdfairy/blob/master/cat.js"></script>
+<script type="text/javascript">
+	var json = {"version":"Sample 1.0.0","model":"moc/tororo.moc","textures":["moc/tororo.2048/texture_00.png"],"pose":"tororo.pose.json","name":"tororo","motions":{"idle":[{"file":"mtn/00_idle.mtn"}],"":[{"file":"mtn/01.mtn"},{"file":"mtn/02.mtn"},{"file":"mtn/03.mtn"},{"file":"mtn/04.mtn"},{"file":"mtn/05.mtn"},{"file":"mtn/06.mtn"},{"file":"mtn/07.mtn"},{"file":"mtn/08.mtn"}]}}
+	 
+loadlive2d("catw", "https://github.com/dusha1023/sdfairy/blob/c0f1be2b8dac393c149b18844a689fa3aef1327c/cat.json");
+</script>
